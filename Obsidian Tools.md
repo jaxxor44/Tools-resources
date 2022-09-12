@@ -18,18 +18,17 @@ cards-deck: test
 - Create Tasks as needed wherever they arrive in the note.
 	- See the `Tasks` community extension.
 - Each Class is its own GitHub repository.
-	- When a Class is finished, convert that class to public and issue a release.
-	- Create a release tagged v1.0.0
-	- Update the Readme.md to include the template text.
-	- Send the Release Link to Angela.
 	- Does this allow the Tools & resources folder to be included in each release?
 	1. Class notes need backup (because done or otherwise)
 	2. Create `README` file inside the class named folder, `C838 - foo bar/README.md`
 	3. Open GitHub Desktop and click `Add Existing Repository`.
+		1. This will force GitHub Desktop to include files in that folder automatically.
 	4. Navigate to the course name folder `C:/foo/bar/C838 - Foo bar`
-	5. Take GitHubs suggestion and create a new repository there.
+	5. Take GitHub's suggestion and create a new repository there.
 	6. Add a description.
 	7. Click `Publish Repo` and make it public.
+	8. Go to GitHub and feed the link back into the readme
+	9. Send the Link to your Mentor.
 
 # Advanced tables
 - https://github.com/tgrosinger/advanced-tables-obsidian
