@@ -221,7 +221,7 @@ Pull in just a single line, the one directly above the reference backlink.
 To change the displayed text:
 [[Obsidian Tools and Hotkeys#^540dd1|displayed text]]
 
-
-
 Still need to figure out how to reference **just** the text inside a text box.
 
+# Other
+- The secret to a PDF link to page is `Foo.pdf#page=33`

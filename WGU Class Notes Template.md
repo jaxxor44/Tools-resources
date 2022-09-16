@@ -5,20 +5,20 @@
   } else {
 	  title = tp.file.title
   }
-  source = await tp.system.suggester(["ITIL Foundation, 4th ed.","Dion Training","Udemy", "LinkedIn","YouTube"], ["ITIL Foundation, 4th ed.","Dion Training","Udemy","LinkedIn","YouTube"]);
+  source = await tp.system.suggester(["HIP4 All-in-one", "Legal and privacy issues Book", "other"], 
+  ["HIP4 All-in-one", "Legal and privacy issues Book", "Other"]);
   await tp.file.rename(`${title}`);
 %>
 aliases: [<%* tR += `${title}` %>]
-banner: "![[project workers.jpg]]"
+banner: "![[BinaryScales.jpg]]"
 banner_lock: True
 created: <% tp.date.now("YYYY-MM-DD  HH:mm:ss") %>
 modification date: <%+ tp.file.last_modified_date("YYYY-MM-DD  HH:mm:ss") %>
-Template Ver: 2.0
-
-Class: C846 - Business of IT
+Template Ver: 2.2
 Source: <%* tR += `${source}` %>
-tags: C846/<% tp.file.folder() %>
-cards-deck: C846 - Business of IT::<% tp.file.folder() %>
+
+tags: C841/<% tp.file.folder() %>
+cards-deck: Legal_Issues_in_Information_Security
 
 ---
 %%
@@ -32,20 +32,9 @@ cards-deck: C846 - Business of IT::<% tp.file.folder() %>
 # <%* tR += `${title}` %>
 >[!tip] Key Message
 
-[[ITIL Foundation, ITIL 4 Edition (Book).pdf#page=00|ITIL Foundations Book]].
 - <% tp.file.cursor() %>
 
-# Examples
->[!example]- Axle Car Hire 🏢
->👨Henri, the CEO:
->👩 Su, the Product manager:
->👵Radhika, IT business analyst:
->👲Marco, IT deliver manager:
->Customers:
->👩‍🎓Ichika, The Student:
->👳Faruq, The Retiree:
->👩‍💼Amelia, The Facilities Manager:
-
 # cards
+- [ ] Submit Flash cards to Anki
 >[!info] card
 >
